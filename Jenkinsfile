@@ -16,7 +16,7 @@ pipeline {
             steps {
                 git branch: 'main', 
                     credentialsId: 'github', 
-                    url: 'your-repository-url-here'
+                    url: 'https://github.com/Prajuu111/TwelveMonkeys.mvn.git'
             }
         }
         stage("Build Application") {
